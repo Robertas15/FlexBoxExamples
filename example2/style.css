@@ -1,0 +1,52 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    min-height: 150px;
+    padding: 20px 10px 20px 20px;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.child > div {
+    display: flex;
+    height: 50px;
+    background-color: bisque;
+    border: 2px solid white;
+    border-radius: 3px;
+    min-width: 50px;
+    margin-right: 10px;
+}
+
+.child1 {
+    flex: 1;
+}
+
+.child2 {
+    flex: none;
+}
+
+.child3 {
+    flex: 2;
+}
+
+.child4 {
+    flex: auto;
+}
+
+.child5 {
+    flex: initial;
+}
+
+.child6 {
+    flex: 4;
+}
+
+.child7 {
+    flex: 1 50%;
+}
