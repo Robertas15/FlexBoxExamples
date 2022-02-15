@@ -1,0 +1,6 @@
+flex container
+To initialise flexbox you have to have declare display: flex; on an element parent, you are then free to 
+use flexbox on child elements inside as in the example below.
+
+Here we use the markup below in the first example, it's applied on the parent div to flex the child divs 
+with even space between them. We will go into more detail about these declarations later!

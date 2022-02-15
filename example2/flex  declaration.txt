@@ -1,0 +1,5 @@
+flex declaration
+The flex declaration determent how much each child will occupy inside the parent container, 
+this is one of the core declarations for when making a basic skeleton structure for a project. 
+As you can see in the example below there are a number of different variations but the most common uses are flex: 
+auto; flex: initial; flex: none; flex: 1;

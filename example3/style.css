@@ -1,0 +1,16 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:steelblue;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.child {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: bisque;
+    border: 2px solid white;
+    border-radius: 3px;
+}
