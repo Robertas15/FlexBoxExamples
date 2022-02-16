@@ -1,0 +1,8 @@
+element left center
+If you want to align a child element in a specific position inside 
+a parent element you have to use one or two flex declarations to 
+achieve this. To place an element horizontally (left center right) 
+inside the parent we use justify-content: flex-start/center/flex-end; 
+To make this change vertically we use 
+align-items: flex-start/center/flex-end; You can combine these as well, 
+as you can see in the example listed.

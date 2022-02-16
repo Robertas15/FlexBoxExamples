@@ -1,11 +1,10 @@
 .parent {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: steelblue;
     padding: 20px;
     min-height: 150px;
-
 }
 
 .child {
